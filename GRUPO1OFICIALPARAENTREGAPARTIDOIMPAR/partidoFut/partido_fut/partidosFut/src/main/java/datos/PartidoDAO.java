@@ -128,7 +128,7 @@ public class PartidoDAO {
 
     // Método para actualizar un partido
     public void update(Partido partidoAActualizar) {
-        // Este método ya estaba generado en tu código original
+    //gaby pinto
         throw new UnsupportedOperationException("Not supported yet.");
     }
 
