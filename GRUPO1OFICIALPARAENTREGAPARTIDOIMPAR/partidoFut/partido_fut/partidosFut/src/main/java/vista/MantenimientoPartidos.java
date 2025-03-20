@@ -23,29 +23,6 @@ import javax.swing.JOptionPane;
  */
 public class MantenimientoPartidos extends javax.swing.JInternalFrame {
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     public void llenadoDeTablas() {
         DefaultTableModel modelo = new DefaultTableModel();
@@ -443,7 +420,7 @@ public class MantenimientoPartidos extends javax.swing.JInternalFrame {
     PartidoDAO partidoDAO = new PartidoDAO();
     
     // Eliminar todos los registros de la base de datos
-    partidoDAO.eliminarTodos(); // Este método debes implementarlo en tu DAO
+    partidoDAO.eliminarTodos(); // gabriela pinto
     
     // Reiniciar los campos del formulario para insertar nuevos datos
     txtbuscado.setText("");
@@ -460,7 +437,7 @@ public class MantenimientoPartidos extends javax.swing.JInternalFrame {
     llenadoDeTablas();
     
     // Registrar el evento en la bitácora (si es necesario)
-    // Puedes añadir código aquí para registrar el reinicio si es necesario.
+    
 
   
     }//GEN-LAST:event_btnReiniciarActionPerformed
